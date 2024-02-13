@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
+    <title>Assignment 1</title>
 </head>
 <body>
-    <div class="">
+<!---HTML Content-->
+    <div>
+        
+        <p id="text">What is your name?.</p>
+        <button type="button" onclick='document.getElementById("text").innerHTML = "My name is Mahfuja Akter" '>Answer</button>
+        
+    </div>
+    
+    <!---HTML Content-->
+
+<!---HTML Attribute-->
+
+    <div>
+        <button type="button" onclick="document.getElementById('image').src='img/me.jpg'">click</button>
+        <img id="image" src="img/girl.png" alt="">
+    </div>
+<!---HTML Attribute-->
+
+<!---HTML Style-->
+
+    <div>
         <h2>My name is Mahfuja</h2>
         <p id="name">Hi I am Mahfuja .</p>
         <button type="button" onclick="document.getElementById('name').style.color='red'">check</button>
 
     </div>
+<!---HTML  Style-->
 
-    <div>
-        <button type="button" onclick="document.getElementById('image').src='img/gb.png'">click</button>
-        <img id="image" src="img/men.png" alt="">
-    </div>
+<!---HTML  Style-->
 
-    <div>
-        
-        <p id="text">What is your name?.</p>
-        <button type="button" onclick='document.getElementById("text").innerHTML = "My nane is Mahfuja Akter" '>Answer</button>
-        
-        
-    </div>
+<script src="style.js"></script>
+<!---HTML  Style-->
 
-
-    <div>
-        <p id="demo">Hello java script .</p>
-
-        <button type="button" onclick="document.getElementById('demo').style.display='none'">Click </button>
-    </div>
 </body>
 </html>
